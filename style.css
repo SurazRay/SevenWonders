@@ -1,0 +1,51 @@
+.main{
+    margin:0 auto;
+    max-width: 900px;
+    width: 90%;
+    padding: 20px;
+    background-color: aliceblue;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 5px;
+    border-radius: 7px;
+}
+
+.box {padding: 2%;
+
+    height: 165px;
+    width: 95%;
+    float: right;
+    background-color:cyan;
+    border: 3px solid #09b743;
+    border-radius: 9px;
+    clear: left;
+}
+
+
+img{
+    height: 159px;
+    width: 159px;
+    border : 2px solid red;
+    border-radius: 8px;
+    margin-right: 4px;
+    float : left;
+}
+h3{
+    text-align: center;
+    color:red;
+}
+.img2,.img4,.img6{
+    float: right;
+}
+@media screen and (orientation : portrait), (max-width  : 1023px)
+{
+.box{
+    height: 270px;
+}
+}
+h1{
+    color: blue;
+    text-align: center;
+    text-decoration:  yellow underline;
+}
